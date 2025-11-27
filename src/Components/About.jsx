@@ -16,7 +16,7 @@ const About = () => {
     <section id="about" className="py-14 bg-black/10">
       <div className="flex items-center justify-center flex-col">
         <Heading heading={"about me"} />
-        <h1 className="text-4xl font-bold mt-3 bg-clip-text text-transparent bg-linear-to-r from-yellow-500 to-cyan-400  uppercase tracking-[1px] mb-2">
+        <h1 className="text-2xl md:text-4xl font-bold mt-3 bg-clip-text text-transparent bg-linear-to-r from-yellow-500 to-cyan-400  uppercase tracking-[1px] mb-2">
           Professional Profile
         </h1>
         <p className="text-sm md:text-md opacity-40 tracking-[1px] text-center px-2">
@@ -24,7 +24,7 @@ const About = () => {
           powerful user experiences
         </p>
 
-        <div className="max-w-300 mt-10 px-6 md:px-0">
+        <div className="max-w-200 mt-10 px-6 md:px-0">
           <div className="relative px-6 border-l text-justify py-3 border-white/10">
             {aboutData.map((d, i) => {
               return (

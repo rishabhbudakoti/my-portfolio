@@ -123,7 +123,7 @@ const Contact = () => {
       </p>
 
       <div className="max-w-5xl mx-auto mt-16 flex justify-center gap-10 flex-wrap">
-        <div className="w-[430px] md:w-[480px]  h-max overflow-hidden relative p-8 rounded-3xl bg-white/5 border border-white/10 transition-all duration-300 ">
+        <div className="w-[360px] md:w-[480px]  h-max overflow-hidden relative p-8 rounded-3xl bg-white/5 border border-white/10 transition-all duration-300 ">
           <div className="absolute right-0 top-0 w-[60%] h-full opacity-[0.05] bg-[linear-gradient(to_bottom,transparent_95%,white_95%),linear-gradient(to_right,transparent_95%,white_95%)] bg-size-[20px_20px]"></div>
 
           <h3 className="text-2xl font-semibold text-white mb-6">
@@ -155,7 +155,7 @@ const Contact = () => {
 
         <form
           onSubmit={(e) => handleSubmit(e)}
-          className="w-[430px] md:w-[480px]   transition-all duration-500"
+          className="w-[360px] md:w-[480px]   transition-all duration-500"
         >
           <div className="p-8 rounded-3xl bg-white/5 shadow-[0_0_10px_2px_rgba(250,204,21,0.1)] border border-white/10 transition-all duration-300 ">
             <h3 className="text-2xl text-center font-semibold text-white mb-6">

@@ -46,11 +46,11 @@ const Skills = () => {
   return (
     <section className="py-14 px-4" id="skills">
       <Heading heading="Technical Expertise" />
-      <h1 className="text-4xl w-max mx-auto text-center bg-clip-text  font-bold mt-3 bg-linear-to-r from-yellow-400 to-cyan-400 text-transparent  uppercase tracking-[1px] mb-2">
+      <h1 className="text-2xl md:text-4xl w-max mx-auto text-center bg-clip-text  font-bold mt-3 bg-linear-to-r from-yellow-400 to-cyan-400 text-transparent  uppercase tracking-[1px] mb-2">
         Skills & Technologies
       </h1>
 
-      <div className="max-w-300 mx-auto mt-20 grid sm:grid-cols-2 lg:grid-cols-3 gap-12 px-4 md:px-0">
+      <div className="max-w-300 mx-auto mt-20 grid sm:grid-cols-2 lg:grid-cols-3 gap-12 px-2 md:px-0">
         {skillCategories.map((category, index) => (
           <div
             key={index}
@@ -59,7 +59,7 @@ const Skills = () => {
           >
             <div className="flex items-center gap-3 mb-6">
               {category.icon}
-              <h3 className="text-2xl font-semibold text-white tracking-wide">
+              <h3 className="text-xl md:text-2xl font-semibold text-white tracking-wide">
                 {category.title}
               </h3>
             </div>

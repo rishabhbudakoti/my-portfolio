@@ -4,7 +4,7 @@ const EducationCard = ({ title, year, status, institute, variant }) => {
   return (
     <>
       <div
-        className={` w-[450px] md:w-[520px] h-[220px] p-8 rounded-2xl 
+        className={` w-[350px] md:w-[520px] h-[280px] md:h-[220px] py-6 px-8 rounded-2xl 
             bg-white/5 flex flex-col justify-center border ${
               variant === "cyan"
                 ? "shadow-[0_0_10px_8px_rgba(34,211,238,0.1)]"

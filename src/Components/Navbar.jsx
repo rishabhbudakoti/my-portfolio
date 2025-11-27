@@ -52,7 +52,7 @@ const Navbar = () => {
         </h1>
 
         <div
-          className="md:hidden flex flex-col gap-1 cursor-pointer"
+          className="lg:hidden flex flex-col gap-1 cursor-pointer"
           onClick={() => setOpen(!open)}
         >
           <div
@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <ul className="hidden md:flex gap-14">
+        <ul className="hidden lg:flex gap-14">
           {menus.map((m, i) => {
             return (
               <li key={i}>
@@ -82,7 +82,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden flex flex-col bg-[#1a1a1a]/95 text-white 
+        className={`lg:hidden flex flex-col bg-[#1a1a1a]/95 text-white 
     transition-transform duration-500 overflow-hidden backdrop-blur-sm
     ${
       open
