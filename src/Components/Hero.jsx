@@ -41,7 +41,7 @@ const Hero = () => {
           {heroData.heading}
         </h2>
 
-        <p className=" text-lg md:text-xl md:w-240 text-center opacity-40 mb-8 sm:mb-10 px-3">
+        <p className=" text-lg md:text-xl md:w-[780px] lg:w-240 text-center opacity-40 mb-8 sm:mb-10 px-3">
           {heroData.description}
         </p>
 

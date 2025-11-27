@@ -5,7 +5,7 @@ import Heading from "./Heading";
 const Resume = () => {
   return (
     <section id="resume" className="relative py-20 px-6 overflow-hidden">
-      <Heading heading="Download My Resume" />
+      <Heading heading="Download Resume" />
 
       <p className="text-center text-gray-300 opacity-70 mt-3 text-lg max-w-2xl mx-auto">
         Download my updated resume to view my experience, skills, and projects
@@ -33,8 +33,7 @@ const Resume = () => {
         </h3>
 
         <a
-          href="/resume.txt"
-          download
+          onClick={() => alert("coming soon...")}
           className="mt-2 w-full py-3 flex items-center justify-center gap-3
           rounded-xl text-lg font-semibold text-white cursor-pointer
           bg-white/5 border border-white/10 backdrop-blur-xl

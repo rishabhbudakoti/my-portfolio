@@ -22,7 +22,7 @@ const Education = () => {
 
   return (
     <div className="py-14 bg-black/10" id="education">
-      <Heading heading={"Academic Background"} />
+      <Heading heading={"Education"} />
 
       <div className="max-w-300 px-4 mx-auto flex flex-col  md:flex-row justify-center gap-8 items-center mt-20">
         <EducationCard
