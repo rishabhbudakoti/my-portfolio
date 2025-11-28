@@ -11,6 +11,13 @@ body {
   @apply bg-[#1a1a1a] text-white;
 }
 
+input,
+textarea,
+button,
+a {
+  cursor: pointer;
+}
+
 @theme {
   --color-primary: #c9cdcf;
   --color-secondary: #9ecad6;

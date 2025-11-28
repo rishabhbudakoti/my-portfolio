@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import Heading from "./Heading";
 import emailjs from "@emailjs/browser";
+import submit from "../assets/submit.mp3";
 
 const contactInfo = [
   {
@@ -85,6 +86,11 @@ const Contact = () => {
     }
     setLoading(true);
 
+    const playSound = () => {
+      const audio = new Audio(submit);
+      audio.play();
+    };
+
     const serviceID = import.meta.env.VITE_SERVICE_ID;
     const templateID = import.meta.env.VITE_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_PUBLIC_KEY;
@@ -113,6 +119,7 @@ const Contact = () => {
       phone: "",
       message: "",
     });
+    playSound();
   };
 
   return (
@@ -192,7 +199,7 @@ const Contact = () => {
               type="submit"
               disabled={loading}
               className="mt-6 w-full py-3 rounded-xl text-lg font-semibold text-white
-            bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.2)] border border-ternary cursor-pointer  
+            bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.2)] border border-ternary   
             hover:opacity-90 transition-all flex items-center justify-center gap-2"
             >
               {loading ? (

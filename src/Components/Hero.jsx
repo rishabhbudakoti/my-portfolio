@@ -48,7 +48,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 w-full sm:w-auto px-3">
           {heroData.links.map((d, i) => {
             return (
-              <a href={`#${d.link.toLowerCase()}`}>
+              <a key={i} href={`#${d.link.toLowerCase()}`}>
                 <button
                   key={i}
                   className="border cursor-pointer bg-[rgba(255,255,255,0.05)] border-ternary text-base sm:text-lg text-primary font-semibold w-full sm:w-40 md:w-52 py-3 rounded-4xl capitalize hover:-translate-y-2 transition-all duration-200 hover:shadow-[0px_10px_20px_0px_#5E936C] hover:border-[#5E936C]"

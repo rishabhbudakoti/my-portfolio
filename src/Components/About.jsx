@@ -24,7 +24,7 @@ const About = () => {
           powerful user experiences
         </p>
 
-        <div className="max-w-200 mt-10 px-6 md:px-0">
+        <div className="max-w-300 mt-10 px-6 md:px-0">
           <div className="relative px-6 border-l text-justify py-3 border-white/10">
             {aboutData.map((d, i) => {
               return (

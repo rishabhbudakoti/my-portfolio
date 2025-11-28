@@ -70,7 +70,7 @@ const Navbar = () => {
               <li key={i}>
                 <a
                   href={m === "Home" ? "#" : `#${m.toLowerCase()}`}
-                  className="text-white uppercase font-semibold text-[17px] group relative"
+                  className="text-white  uppercase font-semibold text-[17px] group relative"
                 >
                   {m}
                   <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-linear-to-r from-green-500 via-purple-300 to-yellow-400 transition-all duration-300 group-hover:w-full "></span>
