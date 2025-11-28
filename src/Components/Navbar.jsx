@@ -37,14 +37,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky w-full z-10 top-0 left-0 transition-all duration-75 ease-in ${
+      className={`sticky w-full z-10 top-0 px-2 left-0 transition-all duration-75 ease-in ${
         visible ? "bg-[#1a1a1a] shadow-[0px_0px_12px_1px_#253900]" : ""
       }`}
     >
       <div className="max-w-352 mx-auto flex justify-between items-center py-5 text-white px-3">
         <h1
           onClick={moveTop}
-          className="text-2xl cursor-pointer font-bold uppercase tracking-[1px] bg-linear-to-r from-green-500 via-purple-300 to-yellow-400 bg-clip-text text-transparent"
+          className="text-lg md:text-2xl cursor-pointer font-bold uppercase tracking-[1px] bg-linear-to-r from-green-500 via-purple-300 to-yellow-400 bg-clip-text text-transparent"
         >
           <span>{"<"}</span>
           Rishabh Sharma

@@ -7,14 +7,12 @@ const projects = [
     description:
       "A full‑stack MERN Ecommerce platform where users can create accounts, purchase products, track orders, update profile details, give reviews, and contact support. Includes advanced filtering by category, sub‑category, ratings, and price along with multiple sorting options. Built using React, Node, Express, and MongoDB. Comes with a powerful Admin Panel to manage users, products, revenue, reviews, contact messages, and roles.",
     tech: ["React", "JWT", "Node", "MongoDB", "Express"],
-    link: "#",
   },
   {
     title: "Personal Portfolio Website",
     description:
       "A modern, aesthetic, and completely responsive personal portfolio built using React, Tailwind CSS, and Framer Motion. Designed with smooth animations, glass‑morphism UI elements, interactive sections, and a beautiful project showcase. Highlights skills, experience, education, and projects with elegant visuals and creative layout.",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    link: "#",
+    tech: ["React", "Tailwind", "gsap"],
   },
 ];
 
@@ -31,7 +29,7 @@ export default function Projects() {
           >
             <div>
               <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
-              <p className="text-white/70 leading-relaxed mb-6">
+              <p className="text-white/70 text-justify leading-relaxed mb-6">
                 {project.description}
               </p>
 
