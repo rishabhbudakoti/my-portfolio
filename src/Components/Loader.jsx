@@ -20,15 +20,14 @@ const Loader = () => {
       }
     )
       .to(logoRef.current, {
-        scale: 2.4,
-        filter: "drop-shadow(0 0 12px white)",
+        scale: 2.3,
         duration: 0.35,
         ease: "power2.out",
       })
       .to(logoRef.current, {
         scale: 0,
         rotate: 650,
-        filter: "drop-shadow(0 0 120px white)",
+        filter: "drop-shadow(0 0 33px white)",
         duration: 0.25,
         ease: "power2.in",
       })
@@ -53,9 +52,11 @@ const Loader = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,255,255,0.15),transparent_70%)]"></div>
       <div
         ref={flashRef}
-        className="absolute inset-0 bg-white opacity-0 pointer-events-none"
+        className="absolute inset-0 bg-white opacity-1 pointer-events-none"
       ></div>
-      <img ref={logoRef} src={logo} alt="logo" className="w-32 z-10" />
+      <div className="flex justify-center items-center h-full w-full overflow-hidden">
+        <img ref={logoRef} src={logo} alt="logo" className="w-32 z-10" />
+      </div>
     </div>
   );
 };
