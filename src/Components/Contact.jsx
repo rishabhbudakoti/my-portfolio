@@ -151,7 +151,7 @@ const Contact = () => {
                 key={i}
                 href={sociallinks[i]}
                 target="_blank"
-                className="p-3 rounded-full bg-white/10 border border-white/10 
+                className="p-3 rounded-full backdrop-blur-md bg-white/10 border border-white/10 
                   hover:bg-cyan-400/20 hover:border-cyan-400 transition-all"
               >
                 <Icon className="text-2xl text-white" />
