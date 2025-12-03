@@ -18,14 +18,14 @@ const Resume = () => {
         shadow-[0_0_10px_1px_rgba(34,211,238,0.1)]
         flex flex-col items-center gap-6"
       >
-        <div className="absolute w-full h-full bg-[linear-gradient(to_bottom,transparent_95%,green_95%),linear-gradient(to_right,transparent_95%,white_95%)] bg-size-[18px_18px] opacity-2 -z-10 top-0 left-0"></div>
+        <div className="absolute w-full h-full bg-[linear-gradient(to_bottom,transparent_95%,white_95%),linear-gradient(to_right,transparent_95%,white_95%)] bg-size-[18px_18px] opacity-2 -z-10 top-0 left-0"></div>
 
         <div
           className="w-20 h-20 rounded-full flex items-center justify-center
-          bg-black/10 
-          border shadow-lg border-cyan-400/30"
+          bg-white/10
+          border backdrop-blur-md border-cyan-400/30"
         >
-          <FaFileAlt className="text-4xl text-yellow-400/90" />
+          <FaFileAlt className="text-4xl text-amber-300" />
         </div>
 
         <h3 className="text-xl font-semibold text-white text-center">

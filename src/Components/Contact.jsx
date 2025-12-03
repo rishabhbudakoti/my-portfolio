@@ -14,7 +14,7 @@ import submit from "../assets/submit.mp3";
 
 const contactInfo = [
   {
-    icon: <FaUser className="text-green-800 text-xl" />,
+    icon: <FaUser className="text-green-500 text-xl" />,
     text: "Rishabh Sharma",
   },
   {
@@ -22,7 +22,7 @@ const contactInfo = [
     text: "rishabh44567@gmail.com",
   },
   {
-    icon: <FaPhone className="text-pink-700 text-xl" />,
+    icon: <FaPhone className="text-pink-500 text-xl" />,
     text: "+91 8349395755",
   },
 ];
